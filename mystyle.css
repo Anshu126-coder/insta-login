@@ -1,0 +1,62 @@
+.head{
+    margin-left: 700px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+}
+.login form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.login input{
+    margin-bottom: 20px;
+}
+form button{
+    background-color: #007bff;
+    color: white;
+    cursor:pointer ;
+    border-radius: 5px;
+}
+form button:hover{
+    color: #0056b3;
+}
+.or{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.or .line{
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+.or .text{
+    font-size: 13px;
+    font-weight: 10px;
+    color:#8e8e8e ;
+    padding: 0;
+}
+.facebook{
+    text-align: center;
+    font-weight:bold ;
+    color: #007bff;
+    margin-top: 10px;
+    font-style: arial;
+    font-size:20px ;
+}
+footer{
+    text-align: center;
+    color: grey;
+}
+.bottom{
+    position: absolute;
+    bottom: 10px;
+}
+footer p{
+    margin-left: 640px;
+}
